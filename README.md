@@ -5,9 +5,9 @@ Joshua Olivier Photography is my photography portolio website. This website was 
 
 == Contact ==
 
-If you have any problems, questions, ideas or suggestions for new projects, feel free to send me an e-mail at joshuaolivierr@gmail.com from the contact page on my portfolio.
+If you have any problems, questions, ideas or suggestions for new projects, feel free to send me an e-mail at joshuaolivierr@gmail.com 
 
-Disclaimer: Those fake websites, OnlyPans and Lewis & Richmond also contain a contact form. Keep in mind that those two fake websites won't send me your e-mails because I didn't include an automatic e-mail sender. Those were for funsies only. Also, I didn't add a favicon because the icons from the previous websites couldn't be displayed on the tab.
+Disclaimer: I didn't add a favicon because the icons from the previous websites couldn't be displayed on the tab. Also, this website has an automatic e-mail sender. So if you write your contact information with your inquiries, I'll receive your e-mail and I will respond.
 
 All contributors that have helped me throughout this project will be in the list down below:
 == GitHub ==
