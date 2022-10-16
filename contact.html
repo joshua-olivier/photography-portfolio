@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Andrew Morrison Photography & Design</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <img src="joshua-olivier.png" alt="Logo">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Loader-->
+    <div class="windows8">
+        <div class="wBall" id="wBall_1">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_2">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_3">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_4">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_5">
+            <div class="wInnerBall"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Displays the informations/text after the loader-->
+
+    <body onload="myFunction()" style="margin:0;">
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            <br>
+            <br>
+            <h1 class="contact">Contact</h1>
+            <br>
+            <br>
+            <br>
+            <form action="https://formspree.io/f/xzbwvlwz" method="POST">
+                <!--Needs to be changed -->
+                <label for="name" style="color: black; font-family: Acre">Name:</label>
+                <input type="text" name="name" id="name" style="color: black; font-family: Acre">
+                <label for="email" style="color: black; font-family: Acre">Email:</label>
+                <input type="email" name="email" id="email" style="color: black; font-family: Acre">
+                <label for="subject" style="color: black; font-family: Acre">Subject:</label>
+                <input type="text" name="subject" id="subject" style="color: black; font-family: Acre">
+                <label for="message" style="color: black; font-family: Acre">Message</label>
+                <textarea name="message" cols="30" rows="10" style="color: black; font-family: Acre"></textarea>
+                <input type="submit" value="Send">
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </body>
+</body>
+
+</html>
