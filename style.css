@@ -46,7 +46,7 @@ nav {
     color: #000000;
 }
 
-/*Cureent background color of the button*/
+/*Current background color of the button*/
 .nav-item:hover {
     background-color: #a66457;
 }
@@ -56,13 +56,13 @@ nav {
     color: white;
 }
 
-/*logo-position*/
+/*Logo position*/
 .logo {
     display: inline-block;
 }
 
 
-/*logo image size*/
+/*Logo image size*/
 .logo img {
     width: 70px;
     vertical-align: middle;
@@ -117,7 +117,7 @@ img {
     text-align: center;
 }
 
-/* Add animation to "page content" */
+/*Add animation to "page content"*/
 .animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
