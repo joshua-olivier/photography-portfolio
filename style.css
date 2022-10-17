@@ -15,6 +15,7 @@ html {
     padding: 0;
 }
 
+/*Webpage body type*/
 body {
     font-family: "Acre";
     background-color: #ffffff;
@@ -31,11 +32,13 @@ nav {
     align-items: center;
 }
 
+/*Navbar Links*/
 .nav-links {
     list-style: none;
     display: flex;
 }
 
+/*Navigation button position*/
 .nav-item a {
     display: inline-block;
     padding: 10px 15px;
@@ -43,10 +46,12 @@ nav {
     color: #000000;
 }
 
+/*Cureent background color of the button*/
 .nav-item:hover {
     background-color: #a66457;
 }
 
+/*New button color after its hover*/
 .nav-item:hover a {
     color: white;
 }
@@ -145,11 +150,13 @@ img {
     }
 }
 
+/*Header image*/
 .hp-img {
     width: 100%;
     margin-top: -2.4pc;
 }
 
+/*Centered text*/
 .centered {
     position: absolute;
     top: 50%;
@@ -181,6 +188,7 @@ div.gallery img {
     height: auto;
 }
 
+/*Under description of image*/
 div.desc {
     padding: 15px;
     text-align: center;
@@ -216,6 +224,7 @@ div.desc {
     font-weight:500;
 }
 
+/*contact form*/
 form {
     max-width: 500px;
     margin: 0 auto;
